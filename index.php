@@ -17,6 +17,6 @@ $domain="";
 $secure="";
 $httpOnly= true;
 setcookie($name,$value, time()+$expire,$path, $domain, $secure,$httpOnly);
-echo "<h1 align = center>cookie salvati!</h1>"
+echo "<h1 align = center>cookie salvati!</h1>";
 }
 ?>
